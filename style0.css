@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.div0{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.div0 i{
+    margin: 0px 5px;
+}
+.div0 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background-color: orangered;
+}
+.div1{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    
+    
+}
+#two{
+    margin-left: 50px;
+}
+#three{
+     margin-left: 300px;
+     margin-top: 45px;
+}
+#three a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Rowdies', cursive;
+    
+}
+.slider img{
+    display: block;
+    margin:auto;
+    height: 300px;
+    
+}
+@keyframes slide1{
+    0%{
+        transform: translate(30vw);
+    }
+    100%{
+        transform: translate(0vw);
+    }
+}
+
+.slider{
+    margin-top: 10px;
+    background-color: white;
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+   
+    
+}
+.img1{
+   
+    transform: translate(100vw);
+    animation: slide1 3s 2s forwards;
+     animation-iteration-count: infinite;
+    
+
+}
+.img2{
+    
+    transform: translate(100vw);
+    animation: slide1 3s 2s forwards;
+    animation-iteration-count: infinite;
+    
+    
+}
+.img3{
+    transform: translate(100vw);
+    animation: slide1 3s 2s forwards ;
+    animation-iteration-count:infinite
+}
+.content{
+    background-color: antiquewhite;
+}
+.content h1{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.content h4{
+    text-align: center;
+    font-weight:  200;
+}
+.img4{
+    width: 253px;
+    height: 250px;
+}
+.list{
+    width: 100%;
+    background-color:white;
+    height: 450px;
+    display: flex;
+    margin-top: 13px;
+        
+}
+.list1{
+    height: 400px;
+    width: 253px;
+    margin-left: 150px;
+    margin-top: 13px;
+    text-align: center;
+    color: white;
+    background-color:black;
+}
+
+.list1 h4{
+    margin-top: 10px;
+}
+.list1 h2{
+    margin-top: 10px;
+    color: orange;
+    font-weight: bolder;
+}
+.list1 h6{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.list2{
+    height: 400px;
+    width: 253px;
+    margin-left: 160px;
+    margin-top: 13px;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+.list2 h4{
+    margin-top: 10px;
+}
+.list2 h2{
+    margin-top: 10px;
+    color: orange;
+    font-weight: bolder;
+}
+.list2 h6{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.list3{
+    height: 400px;
+    width: 253px;
+    margin-left: 160px;
+    margin-top: 13px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.list3 h4{
+    margin-top: 10px;
+}
+.list3 h2{
+    margin-top: 10px;
+    color: orange;
+    font-weight: bolder;
+}
+.list3 h6{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.fform{
+    width: 100%;
+    height: 500px;
+    background-color: #222f3e;
+}
+.form{
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+    background: black;
+    color: white;
+    position: absolute;
+    margin-left: 150px;
+}
+.form span{
+    color: red;
+}
+.form h4{
+    padding-top: 20px;
+    padding-left: 45px;
+    font-size: x-large;
+}
+.form .fname{
+    margin-top: 20px;
+    margin-left: 35px;
+    width: 190px;
+    background-color: black;
+    color: white;
+    border-color:white;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+}
+.form .lname{
+    margin-top: 10px;
+    margin-left: 17px;
+    width: 190px;
+    background-color: black;
+    color: white;
+    border-color:white;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+}
+.form .email{
+    margin-top: 20px;
+    margin-left: 35px;
+    width: 190px;
+    background-color: black;
+    color: white;
+    border-color:white;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+}
+.form .phone{
+    margin-top: 10px;
+    margin-left: 17px;
+    width: 190px;
+    background-color: black;
+    color: white;
+    border-color:white;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+}
+.form .massage{
+    margin-top: 25px;
+    margin-left: 35px;
+    width: 405px;
+    background-color: black;
+    color: white;
+    border-color:white;
+    text-align: center;
+    height: 100px;
+    border-radius: 5px;
+}
+.form .bcn a{
+    text-decoration: none;  
+    color: white;
+}
+.form .bcn{
+    background-color: red;
+    margin-top: 30px;
+    margin-left: 63px;
+    border-width: 10px;
+    height: 60px;
+    width: 350px;
+    border-color: black;
+}
+.oform{
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+    background: black;
+    color: white;
+    position: absolute;
+    margin-left: 700px;
+}
+.oform h4{
+   padding-top: 20px;
+   font-size: x-large;
+   word-spacing: 5px;
+   margin-left: 20px;
+   color: red;
+   font-weight: bolder; 
+}
+.oform p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.oform .material-icons{
+    margin-left: 20px;
+     margin-top: 5px;
+     margin-bottom: 10px;
+}
+.oform .ico{
+    margin-left: 22px;
+    word-spacing: 20px;
+}
+    
+
+   
+
+
